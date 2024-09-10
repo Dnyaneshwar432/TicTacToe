@@ -1,0 +1,98 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+}
+
+html,body {
+    height: 100%;
+    width: 100%;
+
+}
+
+body{
+    text-align: center;
+   
+}
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game{
+    margin-top: 30px;
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5vmin;
+}
+
+#btn{
+    height: 18vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0,0.4);
+    font-size: 8vmin;
+    color: crimson;
+    cursor: pointer;
+    background-color: darkgrey;
+}
+
+#winner{
+    height: 25vmin;
+    width: 25vmin;
+    display: flex;
+    align-items: center;
+}
+
+#win-btn{
+    height: 10vmin;
+    width: 18vmin;
+    border-radius: 1rem;
+    border: 2px solid black;
+    box-shadow: 0 0 1rem rgba(0, 0, 0,0.4);
+    font-size: 8vmin;
+    color: crimson;
+}
+
+#reset-btn{
+    padding: 1rem;
+    font-size: 1.25rem;
+    background-color: bisque;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#new-btn{
+    padding: 1rem;
+    font-size: 1rem;
+    background-color: bisque;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+#msg{
+    color: Black;
+    background-color: aliceblue;
+    font-size: 5vmin;
+}
+
+.msg-cintainer{
+    height:100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap : 4rem;
+}
+
+.hide{
+    display: none;
+}
